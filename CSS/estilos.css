@@ -1,0 +1,118 @@
+body{
+    background-color: #040417;
+    color: #db9999;
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+form{
+    max-width: fit-content;
+    padding: 20px;
+    margin-left: 20px;
+
+    background-color: #141427;
+    font-size: 16pt; 
+}
+
+form *{
+    font-size: 16pt; 
+}
+
+h3{
+    font-size: 28pt;
+    padding-left: 20px;
+
+    color: #e72f2f;
+}
+
+h4{
+    font-size: 24pt;
+    padding-left: 20px;
+    margin: 4px;
+
+    color: #FABC2A;
+}
+
+label{
+    display: block;
+    color: #FABC2A;
+}
+
+input{
+    background-color: #141427;
+    color: #848497;
+    
+}
+
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #141427 inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: #848497 !important;
+}
+/*------------------------------------*/
+/* Classes CSS */
+.elementoArredondado{
+    font-family: 'Titillium Web', sans-serif;
+
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #040417;
+
+    padding: 10px;
+}
+
+.elementoArredondado:focus{
+    border-color: orange;
+    background-color: #080820;
+    border-width: 1px;
+}
+
+.btnPrincipal{
+    margin-top: 10px;
+    background-color: #FABC2A;
+    color: #5A2C0A;
+
+    font-weight: bold;
+}
+
+.btnPrincipal:focus{
+    margin-top: 10px;
+    background-color: #FABC2A;
+    color: #5A2C0A;
+
+    font-weight: bolder;
+}
+
+.linhaDoFormulario{
+    padding: 10px;
+}
+
+
+/*------------------------------------*/
+/* Identificadores */
+#listaDeContatos{
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #c87777;
+}
+
+
+#listaDeContatos > li{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #c87777;
+
+    font-size: 22pt;
+}
+
+#listaDeContatos > li:last-child{
+    border: none;
+}
+
+#listaDeContatos > li:nth-child(2n){
+    background-color: #010113;
+}
